@@ -1,2 +1,2 @@
 # Strukdat
-Data Structure for Semester 2
+Source code of data structure lecture for Semester 2
