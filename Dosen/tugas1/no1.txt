@@ -1,0 +1,22 @@
+Mengapa menggunakan array lebih tidak efisien dibandingkan dengan
+menggunakan linked list?
+
+Karena apabila menggunakan array, jika ingin menyisipi elemen di
+tengah-tengah array, kita harus menggeser elemen-elemen yang ada
+di sebelum posisi elemen yang mau kita isi. Jadi, kita melakukan
+penyisipan ini dengan banyak langkah dan tidak efisien. 
+
+Berikut cara untuk menyisipkan elemen baru pada array :
+1. Cari elemen yang mau dimasukkan ke dalam array.
+2. Lalu, cari posisi dimana elemen ini mau dimasukkan.
+3. Lalu, tukar elemen array satu persatu dari awal hingga posisi
+yang kita inginkan tadi. Lakukan step tersebut berkali-kali
+sampai posisi yang diinginkan.
+4. Baru masukkan elemen yang mau dimasukkan tadi ke posisi yang
+sudah dikosongkan.
+
+Menyisipkan elemen pada tengah-tengah array membutuhkan step yang
+lebih banyak jika dibandingkan dengan linked list. Hal ini tentu
+tidak efisien dan merepotkan si pembuat program. Bila dibandingkan 
+dengan linked list, akan lebih mudah untuk menyisipkan elemen di 
+tengah-tengah list sekalipun.
